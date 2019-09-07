@@ -1,0 +1,40 @@
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test
+$ git init
+Initialized empty Git repository in D:/test/.git/
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (master)
+$ git add test.txt
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (master)
+$ git commit -m"creat text file"
+[master (root-commit) e27677b] creat text file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (master)
+$ git remote add origin https://github.com/rajabooooov/test1.git
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 36.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rajabooooov/test1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (develop)
+$ git chekout -b mouse
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+DELL@DESKTOP-33U2RV7 MINGW64 /d/test (develop)
+$ git checkout -b mouse
+Switched to a new branch 'mouse'
